@@ -1,0 +1,42 @@
+* {
+    background-color: yellowgreen;
+}
+
+#teste8{
+    color: red;
+}
+
+#teste8::before {
+    content: "Hello";
+}
+
+#teste8::after{
+    content: " World";
+}
+
+#teste9 {
+    position: relative;
+}
+
+#teste9::after {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#teste9::after {
+    content: " World";
+    transform: rotate(45deg);
+}
+
+#teste10 {
+    position: relative;
+}
+
+#teste10::after {
+    content: "Hello World";
+    position: absolute;
+    text-wrap: nowrap;
+    top: 100px;
+    left: 10px;
+}
